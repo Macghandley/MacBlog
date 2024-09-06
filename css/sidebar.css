@@ -1,0 +1,30 @@
+/* sidebar.css */
+.sidebar {
+    position: fixed; /* Sticks the sidebar to the left side */
+    top: 0;
+    left: 0;
+    width: 200px; /* Set a fixed width for the sidebar */
+    height: 100vh; /* Full height */
+    background-color: antiquewhite; /* Background color */
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #827f7f;
+}

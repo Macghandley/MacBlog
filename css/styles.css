@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    margin-left: 200px; /* Same width as the sidebar */
+    padding: 20px;
+    width: calc(100% - 200px); /* Adjusts the content width based on the sidebar */
+}
+
+.content h1 {
+    font-size: 2em;
+    color: #333;
+}
